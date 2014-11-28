@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>bharat jquery</title>
+<style>
+ body {
+      background-color:#384047;
+      padding:"10";
+    } 
+	
+.cont{ 	margin: 30px auto 10px;
+	border-radius: 5px;
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.8);}	
+.maindiv {
+
+	background: #fff;
+	display: block;
+	height:800px;
+	width: 1200px;
+	margin: 30px auto 10px;
+	border-radius: 5px;
+	box-shadow: 0 5px 2px 0 #222;
+}
+</style>
+<link href="noUiSlider.7.0.9/jquery.nouislider.css" rel="stylesheet">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="js/highcharts.js"></script>
+<script src="js/data.js"></script>
+<script src="js/exporting.js"></script>
+<script src="noUiSlider.7.0.9/jquery.nouislider.all.min.js"></script>
+
+
+	
+<body>
+
+			
+			
+			
+		
+
+<div class="maindiv" width="20px">
+
+<center>
+<br/><br/><br/>
+<h1>Specific development with graph <br>prototype</h1>
+bharatt
+
+<br/><br/><br/>
+
+<table  class ="cont" border="1" cellpadding="10" style="border-collapse:collapse; margin:2px;">
+<tr> 
+<td>
+<table>
+<th><h3>Dépenses pour</h3> </th> <th><h3>Évolution souhaitée</h3> </th>
+<tr><td>1. <b>la défense (40 milliards €)</b></td><td><div class="slider" id="slide1"></div> </td> <td>	<input class="data1" id="stub1" width="4px"> </input></td></tr>
+<tr><td>2. <b>l'éducation (92 milliards €)</b></td><td><div class="slider" id="slide2"></div> </td> <td>	<input class="data1" id="stub2"> </input></td></tr>
+<tr><td>3. <b>la police et le maintien de l'ordre <br/>(27 milliards €)</b></td><td><div class="slider" id="slide3"></div> </td> <td>	<input class="data1" id="stub3"> </input></td></tr>
+<tr><td>4. <b>les solidarités (151milliards €)</b></td><td><div class="slider" id="slide4"></div> </td> <td>	<input class="data1" id="stub4"> </input></td></tr>
+<tr><td>5. <b>les retraites (296 milliards €)</b></td><td><div class="slider" id="slide5"></div> </td> <td>	<input class="data1" id="stub5"> </input></td></tr>
+<tr><td>6. <b>le travail et l'emploi (51 milliards €)</b></td><td><div class="slider" id="slide6"></div> </td> <td>	<input class="data1" id="stub6"> </input></td></tr>
+<tr><td>7. <b>la santé (199 milliards €)</b></td><td><div class="slider" id="slide7"></div> </td> <td>	<input class="data1" id="stub7"> </input></td></tr>
+<tr><td>8. <b>l'investissement et le fonctionnement <br/>
+des collectivités territoriales (220 milliards €)</b></td><td><div class="slider" id="slide8"></div> </td> <td>	<input class="data1" id="stub8"> </input></td></tr></table>
+
+</td>
+<td>
+<div id="container" style="width: 500px; height: 400px; margin:1 auto"></div> 
+</td>
+</tr>
+</table>
+
+<br/><br/>
+<table id="datatable">
+	<thead>
+		<tr>
+	<th></th>	
+<th> Équilibre des dépenses publiques </th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+	<th> Déficit budgétaire</th>		
+<td id='maindata1'>1</td>		
+		</tr>
+</tbody>
+	
+</table>
+</center>
+
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
